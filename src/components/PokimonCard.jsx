@@ -25,7 +25,6 @@ export default function PokemonCard({ pokemon }) {
   );
 }
 
-// Utility to color-type badges
 function getTypeColor(type) {
   const colors = {
     fire: "bg-red-200 text-red-700",
