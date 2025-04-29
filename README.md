@@ -1,12 +1,27 @@
-# React + Vite
+# Pokédex React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches data from the [PokeAPI](https://pokeapi.co/) and allows users to search and filter through the first 150 Pokémon.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches and displays the first 150 Pokémon
+- Search bar to filter Pokémon by name
+- Dropdown to filter Pokémon by type
+- Responsive design using Tailwind CSS
+- Loading, error, and empty states
+- Built with functional components and React Hooks
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Vite)
+- Tailwind CSS
+- PokeAPI
+
+## 📦 Installation
+
+1. **Clone the repo**:
+
+   ```bash
+   git clone https://github.com/naim-haider/pokimon-app
+   cd pokimon-app
+   ```
